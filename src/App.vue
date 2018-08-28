@@ -26,7 +26,7 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是南方。
+* 大家好，我是郭峰。
 * 我来写一份简历！
 */
 
@@ -84,172 +84,175 @@ html{
 `, `
 /* 再对 HTML 加点样式 */
 .resumeEditor{
-  padding: 2em;
+    padding: 2em;
 }
 .resumeEditor h2{
-  display: inline-block;
-  border-bottom: 1px solid;
-  margin: 1em 0 .5em;
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin: 1em 0 .5em;
 }
 .resumeEditor ul,.resumeEditor ol{
-  list-style: none;
+    list-style: none;
 }
 .resumeEditor ul> li::before{
-  content: '•';
-  margin-right: .5em;
+    content: '•';
+    margin-right: .5em;
 }
 .resumeEditor ol {
-  counter-reset: section;
+    counter-reset: section;
 }
 .resumeEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
-  margin-right: .5em;
+    counter-increment: section;
+    content: counters(section, ".") " ";
+    margin-right: .5em;
 }
 .resumeEditor blockquote {
-  margin: 1em;
-  padding: .5em;
-  background: #ddd;
+    margin: 1em;
+    padding: .5em;
+    background: #ddd;
 }
 `,`
 /*
  * 特别鸣谢。
- */
-`, `
-/* 再对 HTML 加点样式 */
-.thankEditor{
-  padding: 2em;
-}
-.thankEditor h2{
-  display: inline-block;
-  border-bottom: 1px solid;
-  margin: 1em 0 .5em;
-}
-.thankEditor ul,.thankEditor ol{
-  list-style: none;
-}
-.thankEditor ul> li::before{
-  content: '•';
-  margin-right: .5em;
-}
-.thankEditor ol {
-  counter-reset: section;
-}
-.thankEditor ol li::before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
-  margin-right: .5em;
-}
-.thankEditor blockquote {
-  margin: 1em;
-  padding: .5em;
-  background: #ddd;
-}
-`],
+    */
+    `, `
+    /* 再对 HTML 加点样式 */
+    .thankEditor{
+      padding: 2em;
+    }
+    .thankEditor h2{
+      display: inline-block;
+      border-bottom: 1px solid;
+      margin: 1em 0 .5em;
+    }
+    .thankEditor ul,.thankEditor ol{
+      list-style: none;
+    }
+    .thankEditor ul> li::before{
+      content: '•';
+      margin-right: .5em;
+    }
+    .thankEditor ol {
+      counter-reset: section;
+    }
+    .thankEditor ol li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      margin-right: .5em;
+    }
+    .thankEditor blockquote {
+      margin: 1em;
+      padding: .5em;
+      background: #ddd;
+    }
+    `],
         currentMarkdown: '',
         fullMarkdown: [
-          `南方
-====
 
-坐标：湖南长沙。
+          `郭峰
 
-资深软件工程师，资深产品经理，高级项目经理。现为自由职业。
+  
 
-[下载离线简历](http://www.sitexa.org/anires/static/resume.pdf)
+坐标：北京。
 
-技能
-====
 
-数据库设计
-----
-  - 结构化数据库设计
-  - noSQL设计
+[下载离线简历](http://guofeng007.github.io/anires/static/resume.pdf)
 
-后端开发
-----
-  - 用户管理
-  - 单点登录
-  - 第三方登录
-  - 权限管理
-  - 交易系统
-  - 支付系统
-  - 社区系统
-  - 博客系统
-  - 公众号开发
-  - 小程序开发
-  - API接口开发
+---
 
-前端开发
-----
-  - Web前端开发
-  - 移动终端(Native App, Hybrid App)
+# 联系方式  
 
-产品设计
-----
-  - 智慧旅游项目
-  - 运动健康云平台
-  - 社区支持农业O2O项目
-  - 省级环境监控平台
-  - 高速公路异地处罚系统
-  - 环保局办公自动化系统
-  - 保险公司数据迁移项目
-  - 啤酒厂供应链项目
-  - 货运代理系统
-  - 集装箱管理系统
-  - 滞期费管理项目
 
-技术及语言
-----
-  - Java: SpringMVC, SpringCloud, Hibernate, iBatis, spark, sql2o, HikariCP, freemarker, okHttp, retrofit, RxJava
-  - Kotlin: ktor, exposed, anko
-  - Node.js: express, angular, ionic, react, cordova, meteor, electron, axios
-  - Swift: Vapor, ReactiveSwift
-  - Golang: hugo, beego, gorm, sqlx, matcha
-  - Python: tushare, pandas, numpy, matplotlib
-  - DotNet and PHP
-  - DB: SQLServer, Oracle, MySQL/MariaDB, MongoDB, graphQL, redis, memcached
-  - WebServer: apache, nginx, tomcat, netty, jetty
-  - OS: Ubuntu, CentOS, MacOS, Windows
-  - Others: Docker, git, Xmind，Axure
+- 姓名:郭峰
+- 手机:17710672859   
+- Email:tianfengjingjing@gmail.com 
+- QQ/微信:616585129                  
 
-工作经历
-----
 
-1. 湖南融耀健康管理有限公司
-2. 湖南三英特旅游智能技术有限公司
-3. 合肥蓝盾科技有限公司
-4. 上海易保网络有限公司
-5. 厦门海环计算机软件有限公司
 
-教育经历
-----
 
-1. 华东理工大学 环境工程学士
-2. 厦门大学 系统工程硕士
 
-文章
-----
 
-* [故土难离（我的父亲母亲）](https://www.meipian.cn/qacqfbz?uuid=d541c15eef694065bc9d1ac9a07925a2)
-* [油腻腻的中年（小诗）](https://www.meipian.cn/wjaz3zh?uuid=ca1cd053b717451da781786de44e66e7)
-* [生命（老四们的蝼蚁人生）](https://www.meipian.cn/vc4pr59?uuid=799c98f5a187405c94c86f7da7788869)
-* [大健康商业模式](http://www.sitexa.org/technology/%E5%A4%A7%E5%81%A5%E5%BA%B7%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.html)
-* [社区社交商业模型](http://www.sitexa.org/other/%E7%A4%BE%E5%8C%BA%E7%A4%BE%E4%BA%A4%E5%95%86%E4%B8%9A%E6%A8%A1%E5%9E%8B.html)
+    
+---
+# 个人信息
+- 郭峰/男/1990
+- 研究生/中南民族大学/计算机应用技术
+- 工作年限：3年
+- 期望职位：Android高级程序员，应用架构师
+- 期望薪资：面议
+- 期望城市：北京
+- GitHub：   [guofeng007](https://github.com/guofeng007) 、技术博客：[Blog](https://guofeng007.github.io/) 、CSDN：   [csdn](http://blog.csdn.net/rajesh0)
 
-链接
-----
 
-* [GitHub](https://github.com/sitexa)
-* [技术博客](http://www.sitexa.org)
-* [南方时代](http://www.sitexa.net)
-* [神秘湘鄂西](http://www.sitexa.cn)
 
-联系方式
-----
+---
 
-* 电话：18673107430
-* 微信：18673107430
-* 邮箱：xnpeng@163.com
+# 工作经历-百度 ( 2015年7月 ~ 2018年至今 ）
+
+**百度金融-支付业务部-Android端：负责人**
+
+**百度金融-支付业务部-TC晋升委员会：评委**
+## 百度钱包插件框架
+
+- 参与百度钱包插件化项目。通过插件化，不同的业务可以独立开发、集成、更新。作为主要参与者，完成插件框架整体设计，主要核心实现。通过插件化项目，对安卓系统底层运行机制更加熟练，为后续持续创新奠定坚实的基础。目前该项目已经进入众测阶段，插件平台也在建设中。支付SDK已经通过插件化方式下发，后续会扩展三方业务接入，为APP提供更多的功能。
+
+## 百度钱包Hybrid框架 
+- 完成百度钱包Hybrid混合开发框架，支持webview+jsBridge+原生控件+离线等特性。作为框架主要负责人，不但完成了Hybrid的特性，更增加了原生控件的支持，使得H5的体验逼近原生应用。同时在弱网和无网环境下首屏展示时间缩短扫100ms以内，支持离线浏览。后期增量更新也大大减少了APP的网络流量消耗，极大的提升了用户体验。该框架上线之后，为FSG金融业务提供了强有力的容器支持，能够满足移动互联网时代快速迭代的需求。现已接入消费信贷、理财、医美O2O等30+业务，成为百度金融业务开发的核心框架。
+
+## 百度金融风控SDK
+- 负责网络基础框架，主要职责：设计网络库，通过HttpDNS IP直连，心跳保活等技术优化网络性能。
+- 负责OCR图像识别，活体识别，以及风控能力输出。
+
+## 百度钱包人脸支付
+- 负责百度钱包人脸支付相关技术架构，一期基于 Pad版本人脸支付，适用于中小支付场景。二期基于 RGB+深度3D 摄像头+开发板方案，在识别速度，准确率，安全性上有了很大的提升，适用于任何场景。
+
+## 百度钱包支付SDK 
+- 参与百度钱包SDK相关功能开发，独立完成扫一扫、Crash统计、SchemePay、分散认证等模块。作为独立功能负责人，从需求、系统设计开始，持续跟进后期上线、迭代、维护等整个生命周期。通过对各模块的开发，积累了作为TopicLeader所需的各项业务知识。各项功能不断扩展百端钱包的线下使用场景，截止2016年底，百度钱包绑卡强账户数目已经破亿。
+- 参与支付流程优化改造、一卡通充值优化以及对外接入等工作。通过与其他团队以及部门的合作，提升了自己的跨团队沟通能力，有效保障各项业务合作顺利进行。整个优化改造项目在上线后，取得良好的用户评价，绑卡成功率提升5%、支付成功率提升2%。 
+- 专注移动端优化，能够使用LeakCanary分析内存泄漏，追踪ANR，提高APP运行性能。提升代码质量，通过CodeReview，FindBugs, Lint等工具优化代码质量。通过对SDK的持续优化，使得对外输出接入包的size、质量能够和竞品支付宝、微信对齐，现已接入百度旗下20多款产品，同时外部公司也在不断接入。
+
+## 新技术研究   
+
+###热修复
+- 对微信Tinker、QZone超级补丁、AndFix、美团Robust等热修复框架源码有一定的了解。
+
+---
+#获得奖项
+
+- 2015 百度MSG移动服务事业群最佳新人奖 
+- 2016 百度FSG金融事业部技术达人奖
+- 2017 百度FSG磐石最佳团队奖
+
+---
+<br>
+#实习经历
+- 2015 阿里巴巴共享业务事业部、百度钱包、CVTE
+
+---
+#教育经历（成绩5%）
+- 2012.09 - 2015.06 中南民族大学/计算机应用技术/硕士研究生 
+- 2008.09 - 2012.06 中南民族大学/计算机科学与技术/本科 
+
+---
+## 技能清单
+- 源码调试经验丰富，熟练使用各种 Android 调试工具和方法，可以应付各种复杂问题，有较好的好问题分析和解决能力。
+- 独立编译Android系统源码、对Android OS系统体系结构有一定的理解。
+- 熟悉 tcp/udp/http/https 协议，设计通用网络协议。
+- 掌握framework跨进程通信Binder、四大组件、Handler原理以及常见的系统问题。
+- 深入了解常见的Android开源框架、对高性能程序设计、架构有较多的工程经验。
+- 对Hybrid、插件化、热修复等新技术有一定的研究。对开源项目兴趣浓厚
+
+---
+## 参考技能关键字
+- android framework
+- 插件化、热修复、Hybrid、webview
+- ReactNative、EventBus/HermesEventBus
+- ndk/jni、svn/git/github
+
+---
+## 致谢
+感谢您花时间阅读我的简历，期待能有机会和您共事。
 
 离线简历
 ----
@@ -260,100 +263,6 @@ html{
 鸣谢
 ----
 
-* 五一节结束了，我借此页面跟大家说一声感谢。
-* 这段时间，我有些诚煌诚恐，无地自容。我的经历都是一些小公司的软件开发，做着做着就成了Team leader，做过架构、产品、管理，做了好几个行业，技术栈全而不深。
-* 到底适合做什么岗位，我也不好定位，其实也没得选择。除了美工不会做，其他的都会点。近几年，主要在JVM平台上做开发，特别是自(shi)由(ye)之后，我主要学习了Kotlin和NodeJS相关技术，同时也玩玩Python和GoLang。
-* 自认为学习能力强，追求完美，不管是商业模式，还是产品设计，或者技术架构，以及代码开发，都追求优美。但都被残酷的现实挤压得很骨感。
-* 一直以来，我对社交和电商很感兴趣，伴随着QQ和微信的成长、体验着阿里和京东的发展，见证了美团和大众点评的成功，思考过Facebook、twitter、YouTube、Snapchat、Whatsapp、Medium为什么在国外能够斗争发展，对一些新模式新技术比如共享单车、区块链有些关注，因为自由嘛，不受约束地接触各种技术（玩具）。
-* 在社交领域，腾讯独霸天下20年，在电商领域，毫无疑问，是阿里的天下，虽有京东、苏宁等后起之秀，但都没有革命性的模式或产品。美团在团购领域的成功，既迎合了中国消费者的心理，也强化了这种心理。这些公司和老板都是我无比崇拜的IT英雄！
-* 社交是一种形式，电商是变现模式，将二者结合起来会是一个什么样子呢？很多探索者已经在理论上和实践上做过很多尝试，有人号称社交电商，我不知对不对。
-* 我的思考是这样的，陌生社交和熟人社交之间有一个巨大的中间地带，即半生不熟的社区社交（园区社交），目前QQ群和微信群在承担这个工作，实际上不能满足现实需求。
-* 阿里电商（单中心）和微商（无中心）电商之间存在着一个巨大的中间地带，即社区电商（多中心），虽然有很多个创业团队做过多年的尝试，比如小区无忧，社区001，国安社区等等，都投入了大量资金，但我看不到什么革命性的模式。
-* 我的想法是用社交带来流量，通过电商变现。我是不是有点异想天开？
-* 有很多企业向我发出了面试邀请，有很多创业团队向我伸出了橄榄枝，一些朋友给我提出非常好的建议，还有很多同行同学们希望跟我进行技术交流，甚至有些企业问我能否承接外包业务。
-* 在此，我要对所有的所有，说一声谢谢，谢谢你们对我的关心和支持！有你们的存在，让我对明天充满希望，对未来充满信心！不管有没有找到合适的工作，我认识了一群朋友，我非常满意！
-* 我回复了一些朋友的信息，还有很多朋友的信息我没能及时回复，在此，我表示深深的歉意！
-
-感谢名单（不完全）
-----
-
-- 北京肿瘤康复会
-- 珠海紫鸳无人机
-- 腾讯大燕网
-- 广州游戏团队JacobyTong
-- 长沙领路教育
-- 京东项目组
-- 北京拉勾网
-- 北京神策大数据
-- 深圳珍爱网
-- 北京途家(类似airbnb 项目)
-- 北京嘉楠捷思区块链
-- 成都muslog(玩音乐)团队
-- 深圳某游戏公司
-- 广州某游戏公司
-- 上海某广告公司
-- 中通快运
-- 今日头条
-- 福州肆壹壹科技
-- 河南某科技公司
-- 青岛某智能电视公司
-- 上海某直播公司
-- 衡阳某广告公司(腾讯广告)
-- 上海某芯片公司
-- 长沙某机械公司
-- 北京美甲帮
-- 深圳某新零售公司
-- 阿里钉钉
-- 搜狗推广
-- 苏州某互联网公司
-- 北京中华万年历
-- 上海优客工场
-- 长沙超G名片
-- 上海化时信息技术
-- 长沙快智科技
-- 长沙机械之家
-- 长沙奥联
-- 广州神马优选
-- 上海复星集团
-- 北京永洪科技
-- 个推公司
-- 安徽国药医疗科技
-- 昆山某区块链公司
-- 中山某文化传媒公司
-- 脉脉公司
-- 深圳声博士
-- 北京亲见
-- 奇点金服
-- 米柚生活
-- 大众点评
-- 邯郸某农产品电商公司
-- 图灵出版
-- 北京牛顿区块链
-- 深圳际客国际
-- 某智慧旅游公司
-- 厦大粤港澳青创会
-- 北汽集团
-- 成都某社交产品
-- 北京swie.io工业4.0
-- 掘金团队
-- 饿了么华南地区
-- 世联行
-- 阿里电商SaaS平台
-- 上海fordeal出海电商
-- 北京某互联网保险
-- 上海艾比特
-- 北京船运帮
-- 蚂蚁金服
-- 上海高校配餐
-- 有赞商城
-- 上海airwallex
-- 上海唯柚商城
-- 京东某项目
-- 北京海唐新媒
-- 上海好贷网
-- 北京弥财
-- 广州某区块链和人工智能团队
-- 云鸟科技
 
 `]
       }
@@ -467,5 +376,5 @@ html{
 
   * {
     box-sizing: border-box;
-  }
+    }
 </style>
